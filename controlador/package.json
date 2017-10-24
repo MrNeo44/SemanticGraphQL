@@ -1,0 +1,24 @@
+{
+  "name": "proyecto1",
+  "version": "1.0.0",
+  "description": "PRoyecto para integrar resultados de consultas a endpoint semanticos, y relacionales",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "@stark",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-node6": "^11.0.0",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "fuzzy": "^0.1.3",
+    "graphql": "^0.10.3",
+    "isomorphic-fetch": "^2.2.1",
+    "redis": "^2.7.1",
+    "sparql-http-client": "^1.0.2",
+    "string-similarity": "^1.2.0"
+  }
+}
